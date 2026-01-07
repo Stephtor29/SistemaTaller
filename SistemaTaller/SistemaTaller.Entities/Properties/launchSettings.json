@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SistemaTaller.Entities": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
