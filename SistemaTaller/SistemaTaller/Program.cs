@@ -6,8 +6,8 @@ using SistemaTaller.DataAccess.SistemaTallerContext;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("SistemaTallerConn");
-
 builder.Services.AddDbContext<DbTallerContext>(option => option.UseSqlServer(connectionString));
+
 
 builder.Services.DataAccess(connectionString);
 builder.Services.BusinessLogic();
