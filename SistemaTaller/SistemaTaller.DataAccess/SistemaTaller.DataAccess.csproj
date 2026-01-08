@@ -12,8 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\SistemaTaller.Entities.csproj" />
-    <ProjectReference Include="..\SistemaTaller.Entities\SistemaTaller.Entities.csproj" />
+	  <ProjectReference Include="..\SistemaTaller.Entities\SistemaTaller.Entities.csproj" />
   </ItemGroup>
 
 </Project>
